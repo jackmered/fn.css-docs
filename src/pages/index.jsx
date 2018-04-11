@@ -12,12 +12,13 @@ const IndexPage = () => (
     <p>
       If you know CSS, you know fn.css.
     </p>
-    <Link 
-      to="/page-2/"
+    <a 
+      href="https://github.com/jackmered/fn.css/blob/master/dist/fn.css"
+      target="_blank"
       className="dib px1 py0-5 tdn bdrd0-25 fs1-2 bg-green cl-white bgh-dark-green"
     >
       Download
-    </Link>
+    </a>
     <code className="db p0-5 bg-light c6 mxa">npm install fn.css</code>
   </section>
 )

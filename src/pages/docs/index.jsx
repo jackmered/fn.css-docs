@@ -5,12 +5,12 @@ import { rules } from './data.json';
 
 const Docs = () => (
   <article className="x mx-1-5">
-    <section className="c9 px1-5 mt3">
-      <h1 className="mt0 fs3-2">Docs</h1>
+    <section className="md-c9 px1-5 mt3">
+      <h1 className="mt0 fs3">Docs</h1>
       <p>
         Below are all of the shorthand functional CSS rules for easy reference. Generally speaking
          all rules are composed by the first letter in each of the properties words. As an example
-         "vertical-align: middle;" would become ".vat". However due to the vast amount of CSS
+         "vertical-align: middle;" would become ".vam". However due to the vast amount of CSS
          properties this method is occasionally twisted. 
       </p>
       <RulesTable
@@ -151,7 +151,7 @@ const Docs = () => (
         title="Typography"
         rules={rules.filter(rule =>
           [
-            '.fs1', '.fs1-2', '.fs1-6', '.fs2-4', '.fs6-4', '.lh1', '.lh1-2', '.fsn', '.fsi',
+            '.fs0-75', '.fs0-875', '.fs1', '.fs1-5', '.fs2', '.fs3', '.fs4', '.fs6', '.lh1', '.lh1-2', '.fsn', '.fsi',
             '.fwn', '.fwb', '.tal', '.tac', '.tar', '.taj', '.toi', '.toc', '.toe', '.tdu', '.tdo',
             '.tdlt', '.tdn', '.ttu', '.ttl', '.ttc', '.ttn', '.vabl', '.vat', '.vam', '.vab',
             '.wsn', '.wsnw', '.wsp', '.wsi', '.tc1', '.tc2', '.tc3', '.tc4',
@@ -167,7 +167,7 @@ const Docs = () => (
       <br />
       <Link to="/">Go back to the homepage</Link>
     </section>
-    <aside className="c3 px1-5">
+    <aside className="md-c3 px1-5">
       <nav className="psf w100 full-height bg-light pt3">
         <div className="c3 px1">
           <a href="#background" className="db tdn p0-5 cl-black">Background</a>

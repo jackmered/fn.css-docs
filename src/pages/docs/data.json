@@ -3600,6 +3600,24 @@
       ]
     },
     {
+      "selector": ".fs0-75",
+      "declarations": [
+        {
+          "property": "font-size",
+          "value": "0.75rem"
+        }
+      ]
+    },
+    {
+      "selector": ".fs0-875",
+      "declarations": [
+        {
+          "property": "font-size",
+          "value": "0.875rem"
+        }
+      ]
+    },
+    {
       "selector": ".fs1",
       "declarations": [
         {
@@ -3609,47 +3627,47 @@
       ]
     },
     {
-      "selector": ".fs1-2",
+      "selector": ".fs1-5",
       "declarations": [
         {
           "property": "font-size",
-          "value": "1.2rem"
+          "value": "1.5rem"
         }
       ]
     },
     {
-      "selector": ".fs1-6",
+      "selector": ".fs2",
       "declarations": [
         {
           "property": "font-size",
-          "value": "1.6rem"
+          "value": "2rem"
         }
       ]
     },
     {
-      "selector": ".fs2-4",
+      "selector": ".fs3",
       "declarations": [
         {
           "property": "font-size",
-          "value": "2.4rem"
+          "value": "3rem"
         }
       ]
     },
     {
-      "selector": ".fs3-2",
+      "selector": ".fs4",
       "declarations": [
         {
           "property": "font-size",
-          "value": "3.2rem"
+          "value": "4rem"
         }
       ]
     },
     {
-      "selector": ".fs6-4",
+      "selector": ".fs6",
       "declarations": [
         {
           "property": "font-size",
-          "value": "6.4rem"
+          "value": "6rem"
         }
       ]
     },

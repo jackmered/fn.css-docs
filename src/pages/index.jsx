@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <section className="content tac">
-    <h1 className="fs6-4 fwn">fn.css</h1>
+    <h1 className="fs6 fwn">fn.css</h1>
     <h2>Functional shorthand CSS utilities</h2>
     <p>
       fn.css is a collection of abbreviated CSS rules composed in such a way to make

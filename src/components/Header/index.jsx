@@ -18,12 +18,12 @@ const Header = () => (
           Examples
         </Link>
         <a
-          href="https://github.com/jackmered/fn.css" 
+          href="https://github.com/jackmered/fn.css/releases/tag/2.2.0" 
           target="_blank" 
           rel="noopener" 
           className="tdn cl-white px1 h100 x xac"
         >
-          v2.1.1
+          v2.2.0
         </a>
         <a 
           href="https://github.com/jackmered/fn.css" 

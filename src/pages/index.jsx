@@ -54,6 +54,22 @@ const IndexPage = () => (
         </div>
       </section>
     </div>
+    <div class="bg-white py3 mb2">
+      <section className="container px1-5">
+        <div className="x mx-1-5">
+          <div class="c8 px1-5">
+            <h2>What makes fn.css better than other functional framework X? (Tachyons, Tailwind)</h2>
+            <h4>Mininal ambiguity</h4>
+            <p>Unlike other frameworks class names are mapped to actual properties. You don't have to learn the framework, you should be able to guess.</p>
+            <h4>Written is simple CSS</h4>
+            <p>Don't want to waste time configuring? Just use as is and extend with vanilla CSS variables</p>
+          </div>
+          <div class="c4 px1-5">
+            <img src={boyImage} alt="Cartoon of smiling boy on a laptop" class="db" />
+          </div>
+        </div>
+      </section>
+    </div>
   </Layout>
 )
 

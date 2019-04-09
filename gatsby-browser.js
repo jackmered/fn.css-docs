@@ -5,3 +5,7 @@
  */
 
  // You can delete this file if you're not using it
+
+import 'bootstrap/dist/css/bootstrap-reboot.css'
+import "./src/styles/index.css"
+import 'fn.css';

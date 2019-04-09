@@ -2,12 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
-import 'sanitize.css'
-import './index.css';
-import 'fn.css';
+import Header from '../Header';
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children }) => (
   <div>
     <Helmet
       title="fn.css - Functional shorthand CSS utilities"
@@ -17,14 +14,14 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <main className="container px1-5 mt3">
-      {children()}
+    <main className="mt3">
+      {children}
     </main>
   </div>
 )
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+// Layout.propTypes = {
+//   children: PropTypes.,
+// }
 
-export default TemplateWrapper
+export default Layout;

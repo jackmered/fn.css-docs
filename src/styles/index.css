@@ -1,0 +1,32 @@
+a[role="button"]:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 3rem;
+}
+
+.full-height {
+  height: calc(100% - 50px);
+}
+
+.oya {
+  overflow-y: auto;
+}
+
+.table-wrap {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling-x: touch;
+}
+
+@media (min-width: 768px) {
+  .table-wrap {
+    overflow-x: visible;
+    -webkit-overflow-scrolling-x: touch;
+  }
+}

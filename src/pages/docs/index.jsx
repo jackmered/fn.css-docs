@@ -4,6 +4,7 @@ import RulesTable from "../../components/RulesTable";
 import { rules } from "./data.json";
 import Layout from "../../components/Layout";
 import DocsSection from "../../components/DocsSection";
+import DocsTable from "../../components/DocsTable";
 import Alert from "../../components/Alert";
 
 const Docs = () => (
@@ -108,6 +109,48 @@ const Docs = () => (
               <a href="#" class="bgh-white bg-dark p0-5 db">
                 .bgh-white
               </a>
+            </DocsSection>
+            <DocsSection title="Background">
+              <DocsTable
+                rows={[
+                  {
+                    selectors: ".bgsc",
+                    declarations: "background-size: cover;",
+                  },
+                  {
+                    selectors: ".bgsct",
+                    declarations: "background-size: contain;",
+                  },
+                  {
+                    selectors: ".bgpc",
+                    declarations: "background-position: center;",
+                  },
+                  {
+                    selectors: ".bgpr",
+                    declarations: "background-position: right;",
+                  },
+                  {
+                    selectors: ".bgpb",
+                    declarations: "background-position: bottom;",
+                  },
+                  {
+                    selectors: ".bgpl",
+                    declarations: "background-position: left;",
+                  },
+                  {
+                    selectors: ".bgrn",
+                    declarations: "background-repeat: no-repeat;",
+                  },
+                  {
+                    selectors: ".bgrx",
+                    declarations: "background-repeat: repeat-x;",
+                  },
+                  {
+                    selectors: ".bgry",
+                    declarations: "background-repeat: repeat-y;",
+                  },
+                ]}
+              />
             </DocsSection>
             <RulesTable
               title="Background"

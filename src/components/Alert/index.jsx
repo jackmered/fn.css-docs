@@ -1,7 +1,7 @@
 import React from "react";
 
 const alertType = (type) => {
-  const defaultClasses = "mb1 py0-5 px1 bdrd0-25";
+  const defaultClasses = "mb1 py0-5 px1 bdrd0-25 x xac";
   if (type === "danger") {
     return `${defaultClasses} bg-danger cl-white`;
   } else if (type === "warning") {
@@ -12,7 +12,8 @@ const alertType = (type) => {
 
 const Alert = ({ children, type }) => (
   <div className={alertType(type)} role="alert">
-    {children}
+    <div className="mr0-5 fs1-25">🛈</div>
+    <div>{children}</div>
   </div>
 );
 

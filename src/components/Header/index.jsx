@@ -12,7 +12,7 @@ const Header = () => (
       </h1>
       <nav className="mla h100 x">
         <Link to="/docs" className="tdn cl-white px1 h100 x xac">
-          Docs
+          Documentation
         </Link>
         <Link to="/examples" className="tdn cl-white px1 h100 x xac">
           Examples
@@ -23,7 +23,7 @@ const Header = () => (
           rel="noopener"
           className="tdn cl-white px1 h100 x xac"
         >
-          v2.6.0
+          v3.0.0
         </a>
         <a
           href="https://github.com/jackmered/fn.css"

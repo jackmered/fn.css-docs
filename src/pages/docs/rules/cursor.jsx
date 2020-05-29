@@ -5,51 +5,55 @@ import Alert from "../../../components/Alert";
 import DocsTable from "../../../components/DocsTable";
 import DocsSidebar from "../../../components/DocsSidebar";
 
-const Background = () => (
+const Cursor = () => (
   <Layout>
     <div class="bg-white mb2">
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Background</h1>
+            <h1 className="mt0 fs3">Cursor</h1>
             <p></p>
             <DocsTable
               rows={[
                 {
-                  selectors: ".bgsc",
-                  declarations: "background-size: cover;",
+                  selectors: ".curp",
+                  declarations: "cursor: pointer;",
                 },
                 {
-                  selectors: ".bgsct",
-                  declarations: "background-size: contain;",
+                  selectors: ".curd",
+                  declarations: "cursor: default;",
                 },
                 {
-                  selectors: ".bgpc",
-                  declarations: "background-position: center;",
+                  selectors: ".cura",
+                  declarations: "cursor: alias;",
                 },
                 {
-                  selectors: ".bgpr",
-                  declarations: "background-position: right;",
+                  selectors: ".curzi",
+                  declarations: "cursor: zoom-in;",
                 },
                 {
-                  selectors: ".bgpb",
-                  declarations: "background-position: bottom;",
+                  selectors: ".curzo",
+                  declarations: "cursor: zoom-out;",
                 },
                 {
-                  selectors: ".bgpl",
-                  declarations: "background-position: left;",
+                  selectors: ".usn",
+                  declarations: "user-select: none;",
                 },
                 {
-                  selectors: ".bgrn",
-                  declarations: "background-repeat: no-repeat;",
+                  selectors: ".usa",
+                  declarations: "user-select: auto;",
                 },
                 {
-                  selectors: ".bgrx",
-                  declarations: "background-repeat: repeat-x;",
+                  selectors: ".ust",
+                  declarations: "user-select: text;",
                 },
                 {
-                  selectors: ".bgry",
-                  declarations: "background-repeat: repeat-y;",
+                  selectors: ".pen",
+                  declarations: "pointer-events: none;",
+                },
+                {
+                  selectors: ".pea",
+                  declarations: "pointer-events: auto;",
                 },
               ]}
             />
@@ -66,4 +70,4 @@ const Background = () => (
   </Layout>
 );
 
-export default Background;
+export default Cursor;

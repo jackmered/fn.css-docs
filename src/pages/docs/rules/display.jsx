@@ -5,51 +5,47 @@ import Alert from "../../../components/Alert";
 import DocsTable from "../../../components/DocsTable";
 import DocsSidebar from "../../../components/DocsSidebar";
 
-const Background = () => (
+const Display = () => (
   <Layout>
     <div class="bg-white mb2">
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Background</h1>
+            <h1 className="mt0 fs3">Display</h1>
             <p></p>
             <DocsTable
               rows={[
                 {
-                  selectors: ".bgsc",
-                  declarations: "background-size: cover;",
+                  selectors: ".df",
+                  declarations: "display: flex;",
                 },
                 {
-                  selectors: ".bgsct",
-                  declarations: "background-size: contain;",
+                  selectors: ".db",
+                  declarations: "display: block;",
                 },
                 {
-                  selectors: ".bgpc",
-                  declarations: "background-position: center;",
+                  selectors: ".dib",
+                  declarations: "display: inline-block;",
                 },
                 {
-                  selectors: ".bgpr",
-                  declarations: "background-position: right;",
+                  selectors: ".di",
+                  declarations: "display: inline;",
                 },
                 {
-                  selectors: ".bgpb",
-                  declarations: "background-position: bottom;",
+                  selectors: ".dt",
+                  declarations: "display: table;",
                 },
                 {
-                  selectors: ".bgpl",
-                  declarations: "background-position: left;",
+                  selectors: ".dtc",
+                  declarations: "display: table-cell;",
                 },
                 {
-                  selectors: ".bgrn",
-                  declarations: "background-repeat: no-repeat;",
+                  selectors: ".dtr",
+                  declarations: "display: table-row;",
                 },
                 {
-                  selectors: ".bgrx",
-                  declarations: "background-repeat: repeat-x;",
-                },
-                {
-                  selectors: ".bgry",
-                  declarations: "background-repeat: repeat-y;",
+                  selectors: ".dn",
+                  declarations: "display: none;",
                 },
               ]}
             />
@@ -66,4 +62,4 @@ const Background = () => (
   </Layout>
 );
 
-export default Background;
+export default Display;

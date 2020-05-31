@@ -25,7 +25,17 @@
   --fn-warning: var(--fn-yellow);
   --fn-info: var(--fn-light-blue);
   --fn-dark: var(--fn-black);
-  --fn-colors: (primary, secondary, success, danger, warning, info, light, dark, white);
+  --fn-colors: (
+    primary,
+    secondary,
+    success,
+    danger,
+    warning,
+    info,
+    light,
+    dark,
+    white
+  );
 }
 
 .bgsc {
@@ -851,7 +861,7 @@
 }
 
 .cf::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -2479,7 +2489,7 @@
   }
 
   .sm-cf::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }
@@ -4108,7 +4118,7 @@
   }
 
   .md-cf::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }
@@ -5737,7 +5747,7 @@
   }
 
   .lg-cf::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }
@@ -7366,7 +7376,7 @@
   }
 
   .xl-cf::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }

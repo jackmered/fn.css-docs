@@ -17,8 +17,6 @@ const Rules = () => (
               "vertical-align: middle;" would become ".vam". However due to the
               vast amount of CSS properties this method is occasionally twisted.
             </p>
-            <br />
-            <Link to="/">Go back to the homepage</Link>
           </section>
           <aside className="md-c3 px1-5">
             <DocsSidebar />

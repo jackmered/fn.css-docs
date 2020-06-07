@@ -1,11 +1,19 @@
 import React from "react";
 import Link from "gatsby-link";
 import RulesTable from "../../components/RulesTable";
-import { rules } from "./data.json";
 import Layout from "../../components/Layout";
 import DocsSection from "../../components/DocsSection";
 import DocsTable from "../../components/DocsTable";
 import Alert from "../../components/Alert";
+
+const links = [
+  {
+    id: "1",
+    name: "CSS Rules",
+    href: "/docs/rules",
+    description: "Find all the CSS rules here",
+  },
+];
 
 const Documentation = () => (
   <Layout>
@@ -13,22 +21,21 @@ const Documentation = () => (
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Docs</h1>
-            <p>
-              Below are all of the shorthand functional CSS rules for easy
-              reference. Generally speaking all rules are composed by the first
-              letter in each of the properties words. As an example
-              "vertical-align: middle;" would become ".vam". However due to the
-              vast amount of CSS properties this method is occasionally twisted.
-            </p>
-            <br />
-            <Link to="/">Go back to the homepage</Link>
+            <h1 className="mt0 fs3">Documentation</h1>
+            <Alert type="warning">Work in progress, more to come</Alert>
+            <p>Please find all the sections below:</p>
+            {links.map((link) => (
+              <Link to={link.href} className="db bd p1 bdrd0-25">
+                <span className="db fs1-5">{link.name}</span>
+                <span className="db">{link.description}</span>
+              </Link>
+            ))}
           </section>
           <aside className="md-c3 px1-5">
             <nav className="psf w100 full-height bg-light pt3">
               <div className="c3 px1">
                 <Link to="/docs/rules" className="db tdn p0-5 cl-black">
-                  Rules
+                  CSS Rules
                 </Link>
               </div>
             </nav>

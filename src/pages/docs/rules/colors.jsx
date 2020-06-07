@@ -99,8 +99,6 @@ const Colors = () => (
             <a href="#" class="bgh-white bg-dark p0-5 db">
               .bgh-white
             </a>
-            <br />
-            <Link to="/">Go back to the homepage</Link>
           </section>
           <aside className="md-c3 px1-5">
             <DocsSidebar />

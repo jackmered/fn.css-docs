@@ -73,8 +73,8 @@ const IndexPage = () => (
             </p>
             <h4>Free yourself from legacy styling bloat</h4>
             <p>
-              Keeping legacy styling out of fear of breaking websites does not
-              apply to fn.css.
+              No longer need to keep legacy styling out of fear of breaking
+              older forgotten components.
             </p>
           </div>
         </div>
@@ -94,10 +94,10 @@ const IndexPage = () => (
               properties. You don't have to learn the framework, you should be
               able to guess.
             </p>
-            <h4>Written is simple CSS</h4>
+            <h4>Written in simple CSS</h4>
             <p>
-              Don't want to waste time configuring? Just use as is and extend
-              with vanilla CSS variables
+              Don't want to waste time configuring? Just use "as is" and extend
+              with vanilla CSS variables.
             </p>
           </div>
           <div class="c4 px1-5">

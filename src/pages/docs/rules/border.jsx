@@ -93,9 +93,6 @@ const Border = () => (
                 },
               ]}
             />
-
-            <br />
-            <Link to="/">Go back to the homepage</Link>
           </section>
           <aside className="md-c3 px1-5">
             <DocsSidebar />

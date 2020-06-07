@@ -4,8 +4,9 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
- // You can delete this file if you're not using it
+// You can delete this file if you're not using it
 
-import 'bootstrap/dist/css/bootstrap-reboot.css'
-import "./src/styles/index.css"
-import 'fn.css';
+import "bootstrap/dist/css/bootstrap-reboot.css";
+import "./src/styles/index.css";
+// import 'fn.css';
+import "./src/styles/fn.css";

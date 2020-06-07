@@ -1,7 +1,7 @@
 {
   "name": "fn-css-docs",
   "description": "fn.css docs website",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "author": "Jack Meredith <jackmered@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",

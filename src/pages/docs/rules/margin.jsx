@@ -184,6 +184,86 @@ const Margin = () => (
                   declarations:
                     "margin-left: calc(1rem * 3);margin-left: var(--fn-spacer3x);",
                 },
+                {
+                  selectors: ".mx0",
+                  declarations: "margin-left: 0;margin-right: 0;",
+                },
+                {
+                  selectors: ".mx0-25",
+                  declarations:
+                    "margin-left: calc(1rem * 0.25);margin-left: var(--fn-spacer0-25x);margin-right: calc(1rem * 0.25);margin-right: var(--fn-spacer0-25x);",
+                },
+                {
+                  selectors: ".mx0-5",
+                  declarations:
+                    "margin-left: calc(1rem * 0.5);margin-left: var(--fn-spacer0-5x);margin-right: calc(1rem * 0.5);margin-right: var(--fn-spacer0-5x);",
+                },
+                {
+                  selectors: ".mx1",
+                  declarations:
+                    "margin-left: 1rem;margin-left: var(--fn-spacer);margin-right: 1rem;margin-right: var(--fn-spacer);",
+                },
+                {
+                  selectors: ".mx1-5",
+                  declarations:
+                    "margin-left: calc(1rem * 1.5);margin-left: var(--fn-spacer1-5x);margin-right: calc(1rem * 1.5);margin-right: var(--fn-spacer1-5x);",
+                },
+                {
+                  selectors: ".mx2",
+                  declarations:
+                    "margin-left: calc(1rem * 2);margin-left: var(--fn-spacer2x);margin-right: calc(1rem * 2);margin-right: var(--fn-spacer2x);",
+                },
+                {
+                  selectors: ".mx3",
+                  declarations:
+                    "margin-left: calc(1rem * 3);margin-left: var(--fn-spacer3x);margin-right: calc(1rem * 3);margin-right: var(--fn-spacer3x);",
+                },
+                {
+                  selectors: ".my0",
+                  declarations: "margin-top: 0;margin-bottom: 0;",
+                },
+                {
+                  selectors: ".my0-25",
+                  declarations:
+                    "margin-top: calc(1rem * 0.25);margin-top: var(--fn-spacer0-25x);margin-bottom: calc(1rem * 0.25);margin-bottom: var(--fn-spacer0-25x);",
+                },
+                {
+                  selectors: ".my0-5",
+                  declarations:
+                    "margin-top: calc(1rem * 0.5);margin-top: var(--fn-spacer0-5x);margin-bottom: calc(1rem * 0.5);margin-bottom: var(--fn-spacer0-5x);",
+                },
+                {
+                  selectors: ".my1",
+                  declarations:
+                    "margin-top: 1rem;margin-top: var(--fn-spacer);margin-bottom: 1rem;margin-bottom: var(--fn-spacer);",
+                },
+                {
+                  selectors: ".my1-5",
+                  declarations:
+                    "margin-top: calc(1rem * 1.5);margin-top: var(--fn-spacer1-5x);margin-bottom: calc(1rem * 1.5);margin-bottom: var(--fn-spacer1-5x);",
+                },
+                {
+                  selectors: ".my2",
+                  declarations:
+                    "margin-top: calc(1rem * 2);margin-top: var(--fn-spacer2x);margin-bottom: calc(1rem * 2);margin-bottom: var(--fn-spacer2x);",
+                },
+                {
+                  selectors: ".my3",
+                  declarations:
+                    "margin-top: calc(1rem * 3);margin-top: var(--fn-spacer3x);margin-bottom: calc(1rem * 3);margin-bottom: var(--fn-spacer3x);",
+                },
+                {
+                  selectors: ".mla",
+                  declarations: "margin-left: auto;",
+                },
+                {
+                  selectors: ".mra",
+                  declarations: "margin-right: auto;",
+                },
+                {
+                  selectors: ".mxa",
+                  declarations: "margin-right: auto;margin-left: auto;",
+                },
               ]}
             />
 

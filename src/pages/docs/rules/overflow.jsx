@@ -20,20 +20,20 @@ const Overflow = () => (
                   declarations: "overflow: hidden;",
                 },
                 {
-                  selectors: ".os",
-                  declarations: "overflow: scroll;",
-                },
-                {
                   selectors: ".oxh",
                   declarations: "overflow-x: hidden;",
                 },
                 {
-                  selectors: ".oxs",
-                  declarations: "overflow-x: scroll;",
-                },
-                {
                   selectors: ".oyh",
                   declarations: "overflow-y: hidden;",
+                },
+                {
+                  selectors: ".os",
+                  declarations: "overflow: scroll;",
+                },
+                {
+                  selectors: ".oxs",
+                  declarations: "overflow-x: scroll;",
                 },
                 {
                   selectors: ".oys",
@@ -42,6 +42,14 @@ const Overflow = () => (
                 {
                   selectors: ".oa",
                   declarations: "overflow: auto;",
+                },
+                {
+                  selectors: ".oxa",
+                  declarations: "overflow-x: auto;",
+                },
+                {
+                  selectors: ".oya",
+                  declarations: "overflow-y: auto;",
                 },
               ]}
             />

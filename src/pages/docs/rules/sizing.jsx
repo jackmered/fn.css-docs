@@ -28,6 +28,10 @@ const Sizing = () => (
                   declarations: "width: auto;",
                 },
                 {
+                  selectors: ".wi",
+                  declarations: "width: inherit;",
+                },
+                {
                   selectors: ".h0",
                   declarations: "height: 0;",
                 },
@@ -38,6 +42,10 @@ const Sizing = () => (
                 {
                   selectors: ".ha",
                   declarations: "height: auto;",
+                },
+                {
+                  selectors: ".hi",
+                  declarations: "height: inherit;",
                 },
                 {
                   selectors: ".vw100",

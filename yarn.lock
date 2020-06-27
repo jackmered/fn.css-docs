@@ -5644,10 +5644,10 @@ fn-name@~3.0.0:
   resolved "https://registry.yarnpkg.com/fn-name/-/fn-name-3.0.0.tgz#0596707f635929634d791f452309ab41558e3c5c"
   integrity sha512-eNMNr5exLoavuAMhIUVsOKF79SWd/zG104ef6sxBTSw+cZc6BXdQXDvYcGvp0VbxVVSp1XDUNoz7mg1xMtSznA==
 
-fn.css@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fn.css/-/fn.css-3.0.0.tgz#37c2e9b547f54719646ca85dd3139bf7f94c03c7"
-  integrity sha512-Yyqy0N1zJqFAHwtCcR7pfHgucEhrcnQ90XIgyEN1Y2DfKX1Nfk7SPWCo4u1+jKAntocaJait2JFcqcWiHt19EQ==
+fn.css@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fn.css/-/fn.css-3.1.0.tgz#4e0aaf870df9b4249ad177ff98f4e653bce6ced0"
+  integrity sha512-AW74mo2JlbH79cKyL4raB+3hAY1i4u9aXonYmBJmCya6Q0DjejSu8J1Gy0vYElSfnqQyeFGiNhFPhUurojosaQ==
 
 focus-lock@^0.6.7:
   version "0.6.8"

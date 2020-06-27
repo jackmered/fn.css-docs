@@ -22,7 +22,7 @@ const Header = () => (
           rel="noopener"
           className="tdn cl-white px1 h100 x xac"
         >
-          v3.0.0
+          v3.1.0
         </a>
         <a
           href="https://github.com/jackmered/fn.css"

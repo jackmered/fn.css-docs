@@ -8,5 +8,4 @@
 
 import "bootstrap/dist/css/bootstrap-reboot.css";
 import "./src/styles/index.css";
-// import 'fn.css';
-import "./src/styles/fn.css";
+import "fn.css";

@@ -9,7 +9,7 @@ const Rules = () => (
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">CSS Rules</h1>
+            <h1 className="mt0 fs3">CSS rules</h1>
             <p>
               Below are all of the shorthand functional CSS rules for easy
               reference. Generally speaking all rules are composed by the first

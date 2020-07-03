@@ -9,7 +9,13 @@ import Alert from "../../components/Alert";
 const links = [
   {
     id: "1",
-    name: "CSS Rules",
+    name: "Getting started",
+    href: "/docs/getting-started",
+    description: "Simple steps to get started",
+  },
+  {
+    id: "2",
+    name: "CSS rules",
     href: "/docs/rules",
     description: "Find all the CSS rules here",
   },
@@ -25,7 +31,7 @@ const Documentation = () => (
             <Alert type="warning">Work in progress, more to come</Alert>
             <p>Please find all the sections below:</p>
             {links.map((link) => (
-              <Link to={link.href} className="db bd p1 bdrd0-25">
+              <Link to={link.href} className="db bd p1 bdrd0-25 mb1">
                 <span className="db fs1-5">{link.name}</span>
                 <span className="db">{link.description}</span>
               </Link>
@@ -34,8 +40,14 @@ const Documentation = () => (
           <aside className="md-c3 px1-5">
             <nav className="psf w100 full-height bg-light pt3">
               <div className="c3 px1">
+                <Link
+                  to="/docs/getting-started"
+                  className="db tdn p0-5 cl-black"
+                >
+                  Getting started
+                </Link>
                 <Link to="/docs/rules" className="db tdn p0-5 cl-black">
-                  CSS Rules
+                  CSS rules
                 </Link>
               </div>
             </nav>

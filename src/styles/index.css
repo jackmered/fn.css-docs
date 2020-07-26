@@ -8,7 +8,7 @@ a[role="button"]:hover {
 }
 
 .header {
-  height: 3rem;
+  height: 3.5rem;
 }
 
 .full-height {
@@ -29,4 +29,8 @@ a[role="button"]:hover {
     overflow-x: visible;
     -webkit-overflow-scrolling-x: touch;
   }
+}
+
+.tdnh:hover {
+  text-decoration: none;
 }

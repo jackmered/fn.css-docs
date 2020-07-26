@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500.00003"
+   height="500.00003"
+   viewBox="0 0 132.29167 132.29168"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="fn-css-logo-reverse.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="357.01649"
+     inkscape:cy="282.4867"
+     inkscape:document-units="mm"
+     inkscape:current-layer="text819"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.773811,-60.386894)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+       id="rect815"
+       width="132.29167"
+       height="132.29167"
+       x="34.773811"
+       y="60.386894"
+       ry="12.828937" />
+    <g
+       aria-label="fn"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1d70b8;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text819">
+      <path
+         d="m 59.247768,175.74524 v -41.40729 h -7.540625 v -6.30591 h 7.540625 v -4.89479 q 0,-7.67291 4.101042,-11.86215 4.101042,-4.18924 11.597569,-4.18924 2.822223,0 5.600348,0.74966 l -0.440973,6.61458 q -2.072569,-0.39687 -4.409722,-0.39687 -3.96875,0 -6.129514,2.33715 -2.160764,2.29305 -2.160764,6.61458 v 5.02708 h 10.186459 v 6.30591 H 67.405754 v 41.40729 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.31111145px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1d70b8;fill-opacity:1;stroke-width:0.26458332"
+         id="path815" />
+      <path
+         d="m 94.349157,128.03204 0.264584,5.99723 q 5.468059,-6.87917 14.287499,-6.87917 15.12535,0 15.25764,17.06563 v 31.52951 h -8.15799 v -31.57361 q -0.0441,-5.15938 -2.38125,-7.62882 -2.29305,-2.46945 -7.18784,-2.46945 -3.96875,0 -6.967365,2.11667 -2.998611,2.11667 -4.674305,5.55625 v 33.99896 h -8.157987 v -47.7132 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.31111145px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#1d70b8;fill-opacity:1;stroke-width:0.26458332"
+         id="path817" />
+    </g>
+  </g>
+</svg>

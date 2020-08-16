@@ -1,13 +1,15 @@
-import React from "react";
-import Link from "gatsby-link";
-import Layout from "../components/Layout";
-import boyImage from "../images/boy.svg";
+import React from 'react';
+import Link from 'gatsby-link';
+import Layout from '../components/Layout';
+import logo from '../images/fn-css-logo.svg';
 
 const IndexPage = () => (
   <Layout>
     <div class="bg-white py3 mb2">
-      <section className="container px1-5 tac">
-        <h1 className="fs3 fwn">fn.css</h1>
+      <section className="container px0-5 md-px1-5 tac">
+        <h1 class="mb2">
+          <img src={logo} alt="fn.css logo" width="128" />
+        </h1>
         <h2>Functional shorthand CSS utilities</h2>
         <p>
           fn.css is a collection of abbreviated CSS rules composed in such a way
@@ -30,23 +32,20 @@ const IndexPage = () => (
       </section>
     </div>
     <div class="bg-light py3 mb2">
-      <section className="container px1-5">
-        <div className="x mx-1-5">
-          <div class="c4 px1-5">
-            <img
-              src={boyImage}
-              alt="Cartoon of smiling boy on a laptop"
-              class="db"
-            />
-          </div>
-          <div class="c8 px1-5">
-            <h2>What are the benefits of using fn.css?</h2>
-            <h4>Develop UIs FAST</h4>
+      <section className="container px0-5 md-px1-5 tac">
+        <h2 className="mb2">What are the benefits of using fn.css?</h2>
+        <div className="md-x">
+          <div className="md-c3 md-px1">
+            <i className="typcn icon typcn-plane fs3" />
+            <h3>Develop UIs FAST</h3>
             <p>
               Stop spending time repeating the same CSS and embrace rapid atomic
               component styling.
             </p>
-            <h4>Tiny style sheets</h4>
+          </div>
+          <div className="md-c3 md-px1">
+            <i className="typcn icon typcn-arrow-minimise fs3" />
+            <h3>Tiny style sheets</h3>
             <p>
               Less CSS rule overlap combined with&nbsp;
               <a
@@ -55,7 +54,7 @@ const IndexPage = () => (
                 rel="noopener"
               >
                 uncss
-              </a>{" "}
+              </a>{' '}
               or&nbsp;
               <a
                 href="https://www.purgecss.com/"
@@ -66,12 +65,18 @@ const IndexPage = () => (
               </a>
               &nbsp;results in really small style sheets.
             </p>
-            <h4>Design consistency</h4>
+          </div>
+          <div className="md-c3 md-px1">
+            <i className="typcn icon typcn-brush fs3" />
+            <h3>Design consistency</h3>
             <p>
               A rigid set of sizing variables sets the foundation for consistent
               templates.
             </p>
-            <h4>Free yourself from legacy styling bloat</h4>
+          </div>
+          <div className="md-c3 md-px1">
+            <i className="typcn icon typcn-flash fs3" />
+            <h3>Iterate safely</h3>
             <p>
               No longer need to keep legacy styling out of fear of breaking
               older forgotten components.
@@ -81,31 +86,27 @@ const IndexPage = () => (
       </section>
     </div>
     <div class="bg-white py3 mb2">
-      <section className="container px1-5">
-        <div className="x mx-1-5">
-          <div class="c8 px1-5">
-            <h2>
-              What makes fn.css better than other functional frameworks?
-              (Tachyons, Tailwind)
-            </h2>
-            <h4>Mininal ambiguity</h4>
+      <section className="container px0-5 md-px1-5 tac">
+        <h2 className="mb2">
+          Why could fn.css be preferable to other functional frameworks?
+        </h2>
+        <div className="md-x">
+          <div className="md-c6 md-px1">
+            <i className="typcn icon typcn-mortar-board fs3" />
+            <h4>Minimal ambiguity</h4>
             <p>
               Unlike other frameworks class names are mapped to actual
               properties. You don't have to learn the framework, you should be
               able to guess.
             </p>
+          </div>
+          <div className="md-c6 md-px1">
+            <i className="typcn icon typcn-spanner fs3" />
             <h4>Written in simple CSS</h4>
             <p>
               Don't want to waste time configuring? Just use "as is" and extend
               with vanilla CSS variables.
             </p>
-          </div>
-          <div class="c4 px1-5">
-            <img
-              src={boyImage}
-              alt="Cartoon of smiling boy on a laptop"
-              class="db"
-            />
           </div>
         </div>
       </section>

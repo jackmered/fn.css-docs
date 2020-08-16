@@ -1,4 +1,4 @@
-a[role="button"]:hover {
+a[role='button']:hover {
   text-decoration: none;
 }
 
@@ -7,12 +7,24 @@ a[role="button"]:hover {
   margin: 0 auto;
 }
 
-.header {
-  height: 3.5rem;
+@media (min-width: 768px) {
+  .header {
+    height: 3rem;
+  }
 }
 
-.full-height {
-  height: calc(100% - 50px);
+.header-btn i {
+  line-height: 0.5;
+}
+
+.header-menu {
+  width: calc(100% + 1rem);
+}
+
+@media (min-width: 768px) {
+  .full-height {
+    height: calc(100% - 50px);
+  }
 }
 
 .oya {

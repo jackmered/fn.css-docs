@@ -1,18 +1,18 @@
-import React from "react";
-import Link from "gatsby-link";
-import LayoutSidebar from "../components/LayoutSidebar";
-import Alert from "../components/Alert";
+import React from 'react';
+import Link from 'gatsby-link';
+import LayoutSidebar from '../components/LayoutSidebar';
+import Alert from '../components/Alert';
 
 const ExamplesSidebar = () => (
-  <nav className="psf w100 full-height bg-light pt3 oys">
-    <div className="c3 px1">
-      <a href="/docs/rules/background" className="db tdn p0-5 cl-black">
+  <nav className="md-psf w100 full-height bg-light pt3 md-oys">
+    <div className="md-c3 md-px1">
+      <a href="/docs/rules/background" className="db tdn md-p0-5 cl-black">
         Float Grid
       </a>
-      <a href="/docs/rules/border" className="db tdn p0-5 cl-black">
+      <a href="/docs/rules/border" className="db tdn md-p0-5 cl-black">
         Flexbox Grid
       </a>
-      <a href="/docs/rules/colors" className="db tdn p0-5 cl-black">
+      <a href="/docs/rules/colors" className="db tdn md-p0-5 cl-black">
         Buttons
       </a>
     </div>

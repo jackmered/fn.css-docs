@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from '../Header';
+import Footer from '../Footer';
 
 const LayoutSidebar = ({ title, sidebar, children }) => (
   <div>
@@ -11,9 +11,9 @@ const LayoutSidebar = ({ title, sidebar, children }) => (
       title="fn.css - Functional shorthand CSS utilities"
       meta={[
         {
-          name: "description",
+          name: 'description',
           content:
-            "Responsive functional shorthand CSS utilities written in PostCSS",
+            'Responsive functional shorthand CSS utilities written in PostCSS',
         },
       ]}
     />
@@ -21,7 +21,7 @@ const LayoutSidebar = ({ title, sidebar, children }) => (
     <main className="mt3">
       <div class="bg-white mb2">
         <section className="container px1-5">
-          <article className="x mx-1-5">
+          <article className="md-x mx-1-5">
             <section className="md-c9 px1-5 mt3">
               <h1 className="mt0 fs3">{title}</h1>
               {children}

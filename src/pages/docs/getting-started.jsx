@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "gatsby-link";
-import RulesTable from "../../components/RulesTable";
-import Layout from "../../components/Layout";
-import DocsSection from "../../components/DocsSection";
-import DocsTable from "../../components/DocsTable";
-import Alert from "../../components/Alert";
+import React from 'react';
+import Link from 'gatsby-link';
+import RulesTable from '../../components/RulesTable';
+import Layout from '../../components/Layout';
+import DocsSection from '../../components/DocsSection';
+import DocsTable from '../../components/DocsTable';
+import Alert from '../../components/Alert';
 
 const GettingStarted = () => (
   <Layout>
@@ -27,7 +27,7 @@ const GettingStarted = () => (
             </p>
             <h3>Package manager</h3>
             <p>
-              The npm package is{" "}
+              The npm package is{' '}
               <code class="bg-light dib py0-25 px0-5">fn.css</code>
               &nbsp;and can be installed as below:
             </p>

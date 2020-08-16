@@ -1,13 +1,13 @@
-import React from "react";
-import Link from "gatsby-link";
-import Layout from "../../../components/Layout";
-import DocsSidebar from "../../../components/DocsSidebar";
+import React from 'react';
+import Link from 'gatsby-link';
+import Layout from '../../../components/Layout';
+import DocsSidebar from '../../../components/DocsSidebar';
 
 const Rules = () => (
   <Layout>
     <div class="bg-white mb2">
       <section className="container px1-5">
-        <article className="x mx-1-5">
+        <article className="md-x mx-1-5">
           <section className="md-c9 px1-5 mt3">
             <h1 className="mt0 fs3">CSS rules</h1>
             <p>

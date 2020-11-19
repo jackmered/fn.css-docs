@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const alertType = (type) => {
-  const defaultClasses = "mb1 py0-5 px1 bdrd0-25 x xac";
-  if (type === "danger") {
+  const defaultClasses = 'mb1 py0-5 px1 bdrd0-25 x xac';
+  if (type === 'danger') {
     return `${defaultClasses} bg-danger cl-white`;
-  } else if (type === "warning") {
+  } else if (type === 'warning') {
     return `${defaultClasses} bg-warning`;
   }
   return defaultClasses;
@@ -12,7 +12,7 @@ const alertType = (type) => {
 
 const Alert = ({ children, type }) => (
   <div className={alertType(type)} role="alert">
-    <div className="mr0-5 fs1-25">🛈</div>
+    <i className="typcn typcn-info mr0-5" />
     <div>{children}</div>
   </div>
 );

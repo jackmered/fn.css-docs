@@ -22,10 +22,17 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener"
             role="button"
-            className="dib py1 px1-5 mb0-5 tdn ttu fwb bdrd0-25 lh1 bg-success cl-white bgh-white clh-success bd bd-success bs4"
+            className="dib py1 px1-5 mb0-5 mx0-5 tdn ttu fwb bdrd0-25 lh1 bg-success cl-white bgh-white clh-success bd bd-success bs4"
           >
             Download
           </a>
+          <Link
+            to="/docs/getting-started"
+            className="dib py1 px1-5 mb0-5 mx0-5 tdn ttu fwb bdrd0-25 lh1 bg-primary cl-white bgh-white clh-primary bd bd-primary bs4"
+            role="button"
+          >
+            Get started
+          </Link>
         </p>
         <code className="db p0-5 bg-light c6 mxa mb1">npm install fn.css</code>
         <code className="db p0-5 bg-light c6 mxa">yarn add fn.css</code>

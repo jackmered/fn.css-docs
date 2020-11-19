@@ -3,6 +3,28 @@ import Link from 'gatsby-link';
 import Layout from '../../../components/Layout';
 import DocsSidebar from '../../../components/DocsSidebar';
 
+const pages = [
+  { title: 'Background', slug: 'background' },
+  { title: 'Border', slug: 'border' },
+  { title: 'Colors', slug: 'colors' },
+  { title: 'Column', slug: 'column' },
+  { title: 'Cursor', slug: 'cursor' },
+  { title: 'Display', slug: 'display' },
+  { title: 'Flexbox', slug: 'flex' },
+  { title: 'Float', slug: 'float' },
+  { title: 'List', slug: 'list' },
+  { title: 'Margin', slug: 'margin' },
+  { title: 'Negative Margin', slug: 'negative-margin' },
+  { title: 'Opacity', slug: 'opacity' },
+  { title: 'Overflow', slug: 'overflow' },
+  { title: 'Padding', slug: 'padding' },
+  { title: 'Positioning', slug: 'positioning' },
+  { title: 'Shadow', slug: 'shadow' },
+  { title: 'Sizing', slug: 'sizing' },
+  { title: 'Typography', slug: 'typography' },
+  { title: 'Visibility', slug: 'visibility' },
+];
+
 const Rules = () => (
   <Layout>
     <div class="bg-white mb2">
@@ -17,6 +39,19 @@ const Rules = () => (
               "vertical-align: middle;" would become ".vam". However due to the
               vast amount of CSS properties this method is occasionally twisted.
             </p>
+            <div className="x xw mx-0-5">
+              {pages.map((page) => (
+                <div class="c4">
+                  <Link
+                    key={page.slug}
+                    to={`/docs/rules/${page.slug}`}
+                    className="db bd p1 bdrd0-25 mb1 mx0-5"
+                  >
+                    {page.title}
+                  </Link>
+                </div>
+              ))}
+            </div>
           </section>
           <aside className="md-c3 px1-5">
             <DocsSidebar />

@@ -28,7 +28,6 @@ const Documentation = () => (
         <article className="md-x mx-1-5">
           <section className="md-c9 px1-5 mt3">
             <h1 className="mt0 fs3">Documentation</h1>
-            <Alert type="warning">Work in progress, more to come</Alert>
             <p>Please find all the sections below:</p>
             {links.map((link) => (
               <Link to={link.href} className="db bd p1 bdrd0-25 mb1">

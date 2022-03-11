@@ -45,7 +45,7 @@ const Rules = () => (
                   <Link
                     key={page.slug}
                     to={`/docs/rules/${page.slug}`}
-                    className="db bd p1 bdrd0-25 mb1 mx0-5"
+                    className="db bd p1 bdrd0-25 mb1 mx0-5 tdn"
                   >
                     {page.title}
                   </Link>

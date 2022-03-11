@@ -1,10 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import RulesTable from '../../components/RulesTable';
 import Layout from '../../components/Layout';
-import DocsSection from '../../components/DocsSection';
-import DocsTable from '../../components/DocsTable';
-import Alert from '../../components/Alert';
 
 const links = [
   {
@@ -30,7 +26,7 @@ const Documentation = () => (
             <h1 className="mt0 fs3">Documentation</h1>
             <p>Please find all the sections below:</p>
             {links.map((link) => (
-              <Link to={link.href} className="db bd p1 bdrd0-25 mb1">
+              <Link to={link.href} className="db bd p1 bdrd0-5 mb1 tdn">
                 <span className="db fs1-5">{link.name}</span>
                 <span className="db">{link.description}</span>
               </Link>

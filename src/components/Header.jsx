@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import Link from 'gatsby-link';
-import logo from '../../images/fn-css-logo-reverse.svg';
+import logo from '../images/fn-css-logo-reverse.svg';
 
 const Header = () => {
   const [menuOpen, setmenuOpen] = useState(false);
@@ -39,27 +39,14 @@ const Header = () => {
           >
             Documentation
           </Link>
-          <Link
-            to="/examples"
-            className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
-          >
-            Examples
-          </Link>
           <a
-            href="https://www.npmjs.com/package/fn.css"
+            href="https://github.com/jackmered/fn.css/releases"
             target="_blank"
             rel="noopener"
             className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
+            title="GitHub"
           >
-            v3.1.0
-          </a>
-          <a
-            href="https://github.com/jackmered/fn.css"
-            target="_blank"
-            rel="noopener"
-            className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
-          >
-            GitHub
+            <i class="typcn typcn-social-github fs2"></i>
           </a>
         </nav>
       </div>

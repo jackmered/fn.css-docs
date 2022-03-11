@@ -1,10 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import RulesTable from '../../components/RulesTable';
 import Layout from '../../components/Layout';
-import DocsSection from '../../components/DocsSection';
-import DocsTable from '../../components/DocsTable';
-import Alert from '../../components/Alert';
 
 const GettingStarted = () => (
   <Layout>
@@ -17,8 +13,8 @@ const GettingStarted = () => (
             <h3>CDN Link</h3>
             <p>You can find a CDN link below:</p>
             <p>
-              <a href="https://unpkg.com/fn.css@3.1.0/dist/fn.min.css">
-                https://unpkg.com/fn.css@3.1.0/dist/fn.min.css
+              <a href="https://unpkg.com/fn.css@4.2.0/dist/fn.min.css">
+                https://unpkg.com/fn.css@4.2.0/dist/fn.min.css
               </a>
             </p>
             <p>
@@ -32,7 +28,6 @@ const GettingStarted = () => (
               &nbsp;and can be installed as below:
             </p>
             <code class="db p0-5 bg-light mb1 tac">npm install fn.css</code>
-            <code class="db p0-5 bg-light mb1 tac">yarn install fn.css</code>
             <p>
               Again, its recommended to be imported as the last stylesheet to
               ensure style priority.

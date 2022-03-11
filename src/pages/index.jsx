@@ -18,7 +18,7 @@ const IndexPage = () => (
         <p>If you know CSS, you know fn.css.</p>
         <p className="mt2">
           <a
-            href="https://github.com/jackmered/fn.css/blob/master/dist/fn.css"
+            href="https://github.com/jackmered/fn.css/releases"
             target="_blank"
             rel="noopener"
             role="button"
@@ -34,8 +34,7 @@ const IndexPage = () => (
             Get started
           </Link>
         </p>
-        <code className="db p0-5 bg-light c6 mxa mb1">npm install fn.css</code>
-        <code className="db p0-5 bg-light c6 mxa">yarn add fn.css</code>
+        <code className="db p0-5 bg-light c6 mxa">npm install fn.css</code>
       </section>
     </div>
     <div class="bg-light py3 mb2">
@@ -109,7 +108,14 @@ const IndexPage = () => (
           </div>
           <div className="md-c6 md-px1">
             <i className="typcn icon typcn-spanner fs3" />
-            <h4>Written in simple CSS</h4>
+            <h4>Written in SCSS</h4>
+            <p>
+              Built with a set of SCSS variables that can adapt the breakpoints, colors and spacing for you theming needs.
+            </p>
+          </div>
+          <div className="md-c6 md-px1">
+            <i className="typcn icon typcn-css3 fs3" />
+            <h4>Extend with CSS</h4>
             <p>
               Don't want to waste time configuring? Just use "as is" and extend
               with vanilla CSS variables.

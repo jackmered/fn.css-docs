@@ -1,17 +1,10 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import DocsSidebar from '../../../components/DocsSidebar';
-import { CopyBlock, atomOneLight } from "react-code-blocks";
+import CodePage from '../../../components/CodePage';
 
 const Background = () => (
-  <Layout>
-    <div class="bg-white mb2">
-      <section className="container px1-5">
-        <article className="md-x mx-1-5">
-          <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Background</h1>
-            <CopyBlock
-              text={`.bgsc {
+  <CodePage
+    title="Background"
+    code={`.bgsc {
   background-size: cover;
 }
 
@@ -218,19 +211,8 @@ const Background = () => (
     background-repeat: repeat-y;
   }
 }
-`
-              }
-              language="css"
-              theme={atomOneLight}
-            />
-          </section>
-          <aside className="md-c3 px1-5">
-            <DocsSidebar />
-          </aside>
-        </article>
-      </section>
-    </div>
-  </Layout>
+    `}
+  />
 );
 
 export default Background;

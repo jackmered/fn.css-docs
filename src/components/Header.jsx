@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header
-      className={classNames('header bg-primary psf t0 l0 w100 pt0-25 md-p0', {
+      className={classNames('header bg-primary psf t0 l0 w100 pt0-25 md-p0 z1', {
         'pb0-25': !menuOpen,
       })}
     >

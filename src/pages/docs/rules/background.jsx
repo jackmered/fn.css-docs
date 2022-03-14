@@ -1,10 +1,7 @@
 import React from 'react';
 import CodePage from '../../../components/CodePage';
 
-const Background = () => (
-  <CodePage
-    title="Background"
-    code={`.bgsc {
+const code = `.bgsc {
   background-size: cover;
 }
 
@@ -210,9 +207,8 @@ const Background = () => (
   .xl-bgry {
     background-repeat: repeat-y;
   }
-}
-    `}
-  />
-);
+}`;
+
+const Background = () => <CodePage title="Background" code={code} />;
 
 export default Background;

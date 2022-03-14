@@ -15,6 +15,12 @@ const links = [
     href: '/docs/rules',
     description: 'Find all the CSS rules here',
   },
+  {
+    id: '2',
+    name: 'Extend',
+    href: '/docs/extend',
+    description: 'Customise fn.css',
+  },
 ];
 
 const Documentation = () => (
@@ -41,8 +47,11 @@ const Documentation = () => (
                 >
                   Getting started
                 </Link>
-                <Link to="/docs/rules" className="db tdn md-p0-5 cl-black">
+                <Link to="/docs/rules" className="db tdn p0-5 cl-black">
                   CSS rules
+                </Link>
+                <Link to="/docs/extend" className="db tdn p0-5 cl-black">
+                  Extend
                 </Link>
               </div>
             </nav>

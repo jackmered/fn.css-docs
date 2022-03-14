@@ -2,10 +2,7 @@ import React from 'react';
 import CodePage from '../../../components/CodePage';
 import Alert from '../../../components/Alert';
 
-const Colors = () => (
-  <CodePage
-    title="Colors"
-    code={`.cl-white {
+const code = `.cl-white {
   color: var(--fn-white);
 }
 
@@ -273,11 +270,12 @@ const Colors = () => (
 .bdh-dark:hover,
 .bdh-dark:focus {
   border-color: var(--fn-dark);
-}`}
-  >
+}`;
+
+const Colors = () => (
+  <CodePage title="Colors" code={code}>
     <Alert type="warning">
-      Color rules are not responsive, this is to keep the
-      total filesize down.
+      Color rules are not responsive, this is to keep the total filesize down.
     </Alert>
 
     <h4>Text colours</h4>

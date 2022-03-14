@@ -1,42 +1,75 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Layout from '../../../components/Layout';
-import Alert from '../../../components/Alert';
-import DocsTable from '../../../components/DocsTable';
-import DocsSidebar from '../../../components/DocsSidebar';
+import CodePage from '../../../components/CodePage';
 
-const Visibility = () => (
-  <Layout>
-    <div class="bg-white mb2">
-      <section className="container px1-5">
-        <article className="md-x mx-1-5">
-          <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Visibility</h1>
-            <p></p>
-            <DocsTable
-              rows={[
-                {
-                  selectors: '.vh',
-                  declarations: 'visibility: hidden;',
-                },
-                {
-                  selectors: '.vv',
-                  declarations: 'visibility: visible;',
-                },
-                {
-                  selectors: '.vc',
-                  declarations: 'visibility: collapse;',
-                },
-              ]}
-            />
-          </section>
-          <aside className="md-c3 px1-5">
-            <DocsSidebar />
-          </aside>
-        </article>
-      </section>
-    </div>
-  </Layout>
-);
+const code = `.vh {
+  visibility: hidden;
+}
+
+.vv {
+  visibility: visible;
+}
+
+.vc {
+  visibility: collapse;
+}
+
+@media (min-width: 576px) {
+  .sm-vh {
+    visibility: hidden;
+  }
+
+  .sm-vv {
+    visibility: visible;
+  }
+
+  .sm-vc {
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 768px) {
+  .md-vh {
+    visibility: hidden;
+  }
+
+  .md-vv {
+    visibility: visible;
+  }
+
+  .md-vc {
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg-vh {
+    visibility: hidden;
+  }
+
+  .lg-vv {
+    visibility: visible;
+  }
+
+  .lg-vc {
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl-vh {
+    visibility: hidden;
+  }
+
+  .xl-vv {
+    visibility: visible;
+  }
+
+  .xl-vc {
+    visibility: collapse;
+  }
+}
+`;
+
+const Visibility = () => <CodePage title="Visibility" code={code} />;
 
 export default Visibility;

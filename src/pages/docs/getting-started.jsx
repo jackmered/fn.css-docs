@@ -45,6 +45,9 @@ const GettingStarted = () => (
                 <Link to="/docs/rules" className="db tdn p0-5 cl-black">
                   CSS rules
                 </Link>
+                <Link to="/docs/extend" className="db tdn p0-5 cl-black">
+                  Extend
+                </Link>
               </div>
             </nav>
           </aside>

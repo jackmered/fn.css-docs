@@ -1,66 +1,195 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Layout from '../../../components/Layout';
-import Alert from '../../../components/Alert';
-import DocsTable from '../../../components/DocsTable';
-import DocsSidebar from '../../../components/DocsSidebar';
+import CodePage from '../../../components/CodePage';
 
-const Overflow = () => (
-  <Layout>
-    <div class="bg-white mb2">
-      <section className="container px1-5">
-        <article className="md-x mx-1-5">
-          <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Overflow</h1>
-            <p></p>
-            <DocsTable
-              rows={[
-                {
-                  selectors: '.oh',
-                  declarations: 'overflow: hidden;',
-                },
-                {
-                  selectors: '.oxh',
-                  declarations: 'overflow-x: hidden;',
-                },
-                {
-                  selectors: '.oyh',
-                  declarations: 'overflow-y: hidden;',
-                },
-                {
-                  selectors: '.os',
-                  declarations: 'overflow: scroll;',
-                },
-                {
-                  selectors: '.oxs',
-                  declarations: 'overflow-x: scroll;',
-                },
-                {
-                  selectors: '.oys',
-                  declarations: 'overflow-y: scroll;',
-                },
-                {
-                  selectors: '.oa',
-                  declarations: 'overflow: auto;',
-                },
-                {
-                  selectors: '.oxa',
-                  declarations: 'overflow-x: auto;',
-                },
-                {
-                  selectors: '.oya',
-                  declarations: 'overflow-y: auto;',
-                },
-              ]}
-            />
-          </section>
-          <aside className="md-c3 px1-5">
-            <DocsSidebar />
-          </aside>
-        </article>
-      </section>
-    </div>
-  </Layout>
-);
+const code = `.oh {
+  overflow: hidden;
+}
+
+.oxh {
+  overflow-x: hidden;
+}
+
+.oyh {
+  overflow-y: hidden;
+}
+
+.os {
+  overflow: scroll;
+}
+
+.oxs {
+  overflow-x: scroll;
+}
+
+.oys {
+  overflow-y: scroll;
+}
+
+.oa {
+  overflow: auto;
+}
+
+.oxa {
+  overflow-x: auto;
+}
+
+.oya {
+  overflow-y: auto;
+}
+
+@media (min-width: 576px) {
+  .sm-oh {
+    overflow: hidden;
+  }
+
+  .sm-oxh {
+    overflow-x: hidden;
+  }
+
+  .sm-oyh {
+    overflow-y: hidden;
+  }
+
+  .sm-os {
+    overflow: scroll;
+  }
+
+  .sm-oxs {
+    overflow-x: scroll;
+  }
+
+  .sm-oys {
+    overflow-y: scroll;
+  }
+
+  .sm-oa {
+    overflow: auto;
+  }
+
+  .sm-oxa {
+    overflow-x: auto;
+  }
+
+  .sm-oya {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md-oh {
+    overflow: hidden;
+  }
+
+  .md-oxh {
+    overflow-x: hidden;
+  }
+
+  .md-oyh {
+    overflow-y: hidden;
+  }
+
+  .md-os {
+    overflow: scroll;
+  }
+
+  .md-oxs {
+    overflow-x: scroll;
+  }
+
+  .md-oys {
+    overflow-y: scroll;
+  }
+
+  .md-oa {
+    overflow: auto;
+  }
+
+  .md-oxa {
+    overflow-x: auto;
+  }
+
+  .md-oya {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg-oh {
+    overflow: hidden;
+  }
+
+  .lg-oxh {
+    overflow-x: hidden;
+  }
+
+  .lg-oyh {
+    overflow-y: hidden;
+  }
+
+  .lg-os {
+    overflow: scroll;
+  }
+
+  .lg-oxs {
+    overflow-x: scroll;
+  }
+
+  .lg-oys {
+    overflow-y: scroll;
+  }
+
+  .lg-oa {
+    overflow: auto;
+  }
+
+  .lg-oxa {
+    overflow-x: auto;
+  }
+
+  .lg-oya {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl-oh {
+    overflow: hidden;
+  }
+
+  .xl-oxh {
+    overflow-x: hidden;
+  }
+
+  .xl-oyh {
+    overflow-y: hidden;
+  }
+
+  .xl-os {
+    overflow: scroll;
+  }
+
+  .xl-oxs {
+    overflow-x: scroll;
+  }
+
+  .xl-oys {
+    overflow-y: scroll;
+  }
+
+  .xl-oa {
+    overflow: auto;
+  }
+
+  .xl-oxa {
+    overflow-x: auto;
+  }
+
+  .xl-oya {
+    overflow-y: auto;
+  }
+}
+`;
+
+const Overflow = () => <CodePage title="Overflow" code={code} />;
 
 export default Overflow;

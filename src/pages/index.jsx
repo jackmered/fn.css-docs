@@ -110,7 +110,8 @@ const IndexPage = () => (
             <i className="typcn icon typcn-spanner fs3" />
             <h4>Written in SCSS</h4>
             <p>
-              Built with a set of SCSS variables that can adapt the breakpoints, colors and spacing for you theming needs.
+              Built with a set of SCSS variables that can adapt the breakpoints,
+              colors and spacing for you theming needs.
             </p>
           </div>
           <div className="md-c6 md-px1">

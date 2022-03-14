@@ -1,10 +1,7 @@
 import React from 'react';
 import CodePage from '../../../components/CodePage';
 
-const Border = () => (
-  <CodePage
-    title="Border"
-    code={`.bd {
+const code = `.bd {
   border-style: solid;
   border-width: 1px;
 }
@@ -396,9 +393,8 @@ const Border = () => (
   .xl-bdrd100 {
     border-radius: 100%;
   }
-}
-    `}
-  />
-);
+}`;
+
+const Border = () => <CodePage title="Border" code={code} />;
 
 export default Border;

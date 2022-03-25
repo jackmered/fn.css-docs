@@ -5,9 +5,9 @@ import logo from '../images/fn-css-logo.svg';
 
 const IndexPage = () => (
   <Layout>
-    <div class="bg-white py3 mb2">
+    <div className="bg-white py3 mb2">
       <section className="container px0-5 md-px1-5 tac">
-        <h1 class="mb2">
+        <h1 className="mb2">
           <img src={logo} alt="fn.css logo" width="128" />
         </h1>
         <h2>Functional shorthand CSS utilities</h2>
@@ -37,13 +37,13 @@ const IndexPage = () => (
         <code className="db p0-5 bg-light c6 mxa">npm install fn.css</code>
       </section>
     </div>
-    <div class="bg-light py3 mb2">
+    <div className="bg-light py3 mb2">
       <section className="container px0-5 md-px1-5 tac">
         <h2 className="mb2">What are the benefits of using fn.css?</h2>
         <div className="md-x">
           <div className="md-c3 md-px1">
             <i className="typcn icon typcn-plane fs3" />
-            <h3>Develop UIs FAST</h3>
+            <h3 className="fs1-5">Develop UIs FAST</h3>
             <p>
               Stop spending time repeating the same CSS and embrace rapid atomic
               component styling.
@@ -51,7 +51,7 @@ const IndexPage = () => (
           </div>
           <div className="md-c3 md-px1">
             <i className="typcn icon typcn-arrow-minimise fs3" />
-            <h3>Tiny style sheets</h3>
+            <h3 className="fs1-5">Tiny style sheets</h3>
             <p>
               Less CSS rule overlap combined with&nbsp;
               <a
@@ -74,7 +74,7 @@ const IndexPage = () => (
           </div>
           <div className="md-c3 md-px1">
             <i className="typcn icon typcn-brush fs3" />
-            <h3>Design consistency</h3>
+            <h3 className="fs1-5">Design consistency</h3>
             <p>
               A rigid set of sizing variables sets the foundation for consistent
               templates.
@@ -82,7 +82,7 @@ const IndexPage = () => (
           </div>
           <div className="md-c3 md-px1">
             <i className="typcn icon typcn-flash fs3" />
-            <h3>Iterate safely</h3>
+            <h3 className="fs1-5">Iterate safely</h3>
             <p>
               No longer need to keep legacy styling out of fear of breaking
               older forgotten components.
@@ -91,7 +91,7 @@ const IndexPage = () => (
         </div>
       </section>
     </div>
-    <div class="bg-white py3 mb2">
+    <div className="bg-white py3 mb2">
       <section className="container px0-5 md-px1-5 tac">
         <h2 className="mb2">
           Why could fn.css be preferable to other functional frameworks?
@@ -99,7 +99,7 @@ const IndexPage = () => (
         <div className="md-x">
           <div className="md-c6 md-px1">
             <i className="typcn icon typcn-mortar-board fs3" />
-            <h4>Minimal ambiguity</h4>
+            <h4 className="fs1-5">Minimal ambiguity</h4>
             <p>
               Unlike other frameworks class names are mapped to actual
               properties. You don't have to learn the framework, you should be
@@ -108,7 +108,7 @@ const IndexPage = () => (
           </div>
           <div className="md-c6 md-px1">
             <i className="typcn icon typcn-spanner fs3" />
-            <h4>Written in SCSS</h4>
+            <h4 className="fs1-5">Written in SCSS</h4>
             <p>
               Built with a set of SCSS variables that can adapt the breakpoints,
               colors and spacing for you theming needs.
@@ -116,7 +116,7 @@ const IndexPage = () => (
           </div>
           <div className="md-c6 md-px1">
             <i className="typcn icon typcn-css3 fs3" />
-            <h4>Extend with CSS</h4>
+            <h4 className="fs1-5">Extend with CSS</h4>
             <p>
               Don't want to waste time configuring? Just use "as is" and extend
               with vanilla CSS variables.

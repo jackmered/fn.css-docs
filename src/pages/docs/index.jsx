@@ -25,7 +25,7 @@ const links = [
 
 const Documentation = () => (
   <Layout>
-    <div class="bg-white mb2">
+    <div className="bg-white mb2">
       <section className="container px1-5">
         <article className="md-x mx-1-5">
           <section className="md-c9 px1-5 mt3">

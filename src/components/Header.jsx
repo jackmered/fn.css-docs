@@ -20,10 +20,10 @@ const Header = () => {
         </h1>
         <button
           type="button"
-          class="header-btn cl-white bdw0 bg-primary fs1-5 md-dn mla"
+          className="header-btn cl-white bdw0 bg-primary fs1-5 md-dn mla"
           onClick={() => setmenuOpen(!menuOpen)}
         >
-          <i class="typcn typcn-th-menu" />
+          <i className="typcn typcn-th-menu" />
         </button>
         <nav
           className={classNames(
@@ -46,7 +46,7 @@ const Header = () => {
             className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
             title="GitHub"
           >
-            <i class="typcn typcn-social-github fs2"></i>
+            <i className="typcn typcn-social-github fs2"></i>
           </a>
         </nav>
       </div>

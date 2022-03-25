@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 
 const GettingStarted = () => (
   <Layout>
-    <div class="bg-white mb2">
+    <div className="bg-white mb2">
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
@@ -24,10 +24,10 @@ const GettingStarted = () => (
             <h3>Package manager</h3>
             <p>
               The npm package is{' '}
-              <code class="bg-light dib py0-25 px0-5">fn.css</code>
+              <code className="bg-light dib py0-25 px0-5">fn.css</code>
               &nbsp;and can be installed as below:
             </p>
-            <code class="db p0-5 bg-light mb1 tac">npm install fn.css</code>
+            <code className="db p0-5 bg-light mb1 tac">npm install fn.css</code>
             <p>
               Again, its recommended to be imported as the last stylesheet to
               ensure style priority.

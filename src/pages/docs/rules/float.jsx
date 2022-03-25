@@ -1,46 +1,105 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Layout from '../../../components/Layout';
-import Alert from '../../../components/Alert';
-import DocsTable from '../../../components/DocsTable';
-import DocsSidebar from '../../../components/DocsSidebar';
+import CodePage from '../../../components/CodePage';
 
-const Float = () => (
-  <Layout>
-    <div class="bg-white mb2">
-      <section className="container px1-5">
-        <article className="md-x mx-1-5">
-          <section className="md-c9 px1-5 mt3">
-            <h1 className="mt0 fs3">Float</h1>
-            <p></p>
-            <DocsTable
-              rows={[
-                {
-                  selectors: '.fl',
-                  declarations: 'float: left;',
-                },
-                {
-                  selectors: '.fr',
-                  declarations: 'float: right;',
-                },
-                {
-                  selectors: '.fn',
-                  declarations: 'float: none;',
-                },
-                {
-                  selectors: '.cf:after',
-                  declarations: "content: '';display: block;clear: both;",
-                },
-              ]}
-            />
-          </section>
-          <aside className="md-c3 px1-5">
-            <DocsSidebar />
-          </aside>
-        </article>
-      </section>
-    </div>
-  </Layout>
-);
+const code = `.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fn {
+  float: none;
+}
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 576px) {
+  .sm-fl {
+    float: left;
+  }
+
+  .sm-fr {
+    float: right;
+  }
+
+  .sm-fn {
+    float: none;
+  }
+
+  .sm-cf::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 768px) {
+  .md-fl {
+    float: left;
+  }
+
+  .md-fr {
+    float: right;
+  }
+
+  .md-fn {
+    float: none;
+  }
+
+  .md-cf::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg-fl {
+    float: left;
+  }
+
+  .lg-fr {
+    float: right;
+  }
+
+  .lg-fn {
+    float: none;
+  }
+
+  .lg-cf::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl-fl {
+    float: left;
+  }
+
+  .xl-fr {
+    float: right;
+  }
+
+  .xl-fn {
+    float: none;
+  }
+
+  .xl-cf::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+`;
+
+const Float = () => <CodePage title="Float" code={code} />;
 
 export default Float;

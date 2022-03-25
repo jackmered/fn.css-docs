@@ -1,10 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import RulesTable from '../../components/RulesTable';
 import Layout from '../../components/Layout';
-import DocsSection from '../../components/DocsSection';
-import DocsTable from '../../components/DocsTable';
-import Alert from '../../components/Alert';
 
 const links = [
   {
@@ -19,18 +15,24 @@ const links = [
     href: '/docs/rules',
     description: 'Find all the CSS rules here',
   },
+  {
+    id: '2',
+    name: 'Extend',
+    href: '/docs/extend',
+    description: 'Customise fn.css',
+  },
 ];
 
 const Documentation = () => (
   <Layout>
-    <div class="bg-white mb2">
+    <div className="bg-white mb2">
       <section className="container px1-5">
         <article className="md-x mx-1-5">
           <section className="md-c9 px1-5 mt3">
             <h1 className="mt0 fs3">Documentation</h1>
             <p>Please find all the sections below:</p>
             {links.map((link) => (
-              <Link to={link.href} className="db bd p1 bdrd0-25 mb1">
+              <Link to={link.href} className="db bd p1 bdrd0-5 mb1 tdn">
                 <span className="db fs1-5">{link.name}</span>
                 <span className="db">{link.description}</span>
               </Link>
@@ -45,8 +47,11 @@ const Documentation = () => (
                 >
                   Getting started
                 </Link>
-                <Link to="/docs/rules" className="db tdn md-p0-5 cl-black">
+                <Link to="/docs/rules" className="db tdn p0-5 cl-black">
                   CSS rules
+                </Link>
+                <Link to="/docs/extend" className="db tdn p0-5 cl-black">
+                  Extend
                 </Link>
               </div>
             </nav>

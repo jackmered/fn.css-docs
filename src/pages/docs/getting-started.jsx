@@ -1,14 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import RulesTable from '../../components/RulesTable';
 import Layout from '../../components/Layout';
-import DocsSection from '../../components/DocsSection';
-import DocsTable from '../../components/DocsTable';
-import Alert from '../../components/Alert';
 
 const GettingStarted = () => (
   <Layout>
-    <div class="bg-white mb2">
+    <div className="bg-white mb2">
       <section className="container px1-5">
         <article className="x mx-1-5">
           <section className="md-c9 px1-5 mt3">
@@ -17,8 +13,8 @@ const GettingStarted = () => (
             <h3>CDN Link</h3>
             <p>You can find a CDN link below:</p>
             <p>
-              <a href="https://unpkg.com/fn.css@3.1.0/dist/fn.min.css">
-                https://unpkg.com/fn.css@3.1.0/dist/fn.min.css
+              <a href="https://unpkg.com/fn.css@4.2.0/dist/fn.min.css">
+                https://unpkg.com/fn.css@4.2.0/dist/fn.min.css
               </a>
             </p>
             <p>
@@ -28,11 +24,10 @@ const GettingStarted = () => (
             <h3>Package manager</h3>
             <p>
               The npm package is{' '}
-              <code class="bg-light dib py0-25 px0-5">fn.css</code>
+              <code className="bg-light dib py0-25 px0-5">fn.css</code>
               &nbsp;and can be installed as below:
             </p>
-            <code class="db p0-5 bg-light mb1 tac">npm install fn.css</code>
-            <code class="db p0-5 bg-light mb1 tac">yarn install fn.css</code>
+            <code className="db p0-5 bg-light mb1 tac">npm install fn.css</code>
             <p>
               Again, its recommended to be imported as the last stylesheet to
               ensure style priority.
@@ -49,6 +44,9 @@ const GettingStarted = () => (
                 </Link>
                 <Link to="/docs/rules" className="db tdn p0-5 cl-black">
                   CSS rules
+                </Link>
+                <Link to="/docs/extend" className="db tdn p0-5 cl-black">
+                  Extend
                 </Link>
               </div>
             </nav>

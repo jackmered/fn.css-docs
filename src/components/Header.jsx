@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import Link from 'gatsby-link';
-import logo from '../../images/fn-css-logo-reverse.svg';
+import logo from '../images/fn-css-logo-reverse.svg';
 
 const Header = () => {
   const [menuOpen, setmenuOpen] = useState(false);
 
   return (
     <header
-      className={classNames('header bg-primary psf t0 l0 w100 pt0-25 md-p0', {
+      className={classNames('header bg-primary psf t0 l0 w100 pt0-25 md-p0 z1', {
         'pb0-25': !menuOpen,
       })}
     >
@@ -20,10 +20,10 @@ const Header = () => {
         </h1>
         <button
           type="button"
-          class="header-btn cl-white bdw0 bg-primary fs1-5 md-dn mla"
+          className="header-btn cl-white bdw0 bg-primary fs1-5 md-dn mla"
           onClick={() => setmenuOpen(!menuOpen)}
         >
-          <i class="typcn typcn-th-menu" />
+          <i className="typcn typcn-th-menu" />
         </button>
         <nav
           className={classNames(
@@ -39,27 +39,14 @@ const Header = () => {
           >
             Documentation
           </Link>
-          <Link
-            to="/examples"
-            className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
-          >
-            Examples
-          </Link>
           <a
-            href="https://www.npmjs.com/package/fn.css"
+            href="https://github.com/jackmered/fn.css/releases"
             target="_blank"
             rel="noopener"
             className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
+            title="GitHub"
           >
-            v3.1.0
-          </a>
-          <a
-            href="https://github.com/jackmered/fn.css"
-            target="_blank"
-            rel="noopener"
-            className="tdn cl-white bg-primary px1 py0-5 h100 x xac clh-primary bgh-white tdnh"
-          >
-            GitHub
+            <i className="typcn typcn-social-github fs2"></i>
           </a>
         </nav>
       </div>
